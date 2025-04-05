@@ -1,0 +1,81 @@
+.mydelay_01, .mydelay_100 { animation-delay: 100ms; }
+.mydelay_02, .mydelay_200 { animation-delay: 200ms; }
+.mydelay_03, .mydelay_300 { animation-delay: 300ms; }
+.mydelay_04, .mydelay_400 { animation-delay: 400ms; }
+.mydelay_05, .mydelay_500 { animation-delay: 500ms; }
+.mydelay_06, .mydelay_600 { animation-delay: 600ms; }
+.mydelay_07, .mydelay_700 { animation-delay: 700ms; }
+.mydelay_08, .mydelay_800 { animation-delay: 800ms; }
+.mydelay_09, .mydelay_900 { animation-delay: 900ms; }
+.mydelay_10, .mydelay_1000 { animation-delay: 1000ms; }
+.mydelay_11, .mydelay_1100 { animation-delay: 1100ms; }
+.mydelay_12, .mydelay_1200 { animation-delay: 1200ms; }
+.mydelay_13, .mydelay_1300 { animation-delay: 1300ms; }
+.mydelay_14, .mydelay_1400 { animation-delay: 1400ms; }
+.mydelay_15, .mydelay_1500 { animation-delay: 1500ms; }
+.mydelay_16, .mydelay_1600 { animation-delay: 1600ms; }
+.mydelay_17, .mydelay_1700 { animation-delay: 1700ms; }
+.mydelay_18, .mydelay_1800 { animation-delay: 1800ms; }
+.mydelay_19, .mydelay_1900 { animation-delay: 1900ms; }
+.mydelay_20, .mydelay_2000 { animation-delay: 2000ms; }
+.mydelay_21, .mydelay_2100 { animation-delay: 2100ms; }
+.mydelay_22, .mydelay_2200 { animation-delay: 2200ms; }
+.mydelay_23, .mydelay_2300 { animation-delay: 2300ms; }
+.mydelay_24, .mydelay_2400 { animation-delay: 2400ms; }
+.mydelay_25, .mydelay_2500 { animation-delay: 2500ms; }
+.mydelay_26, .mydelay_2600 { animation-delay: 2600ms; }
+.mydelay_27, .mydelay_2700 { animation-delay: 2700ms; }
+.mydelay_28, .mydelay_2800 { animation-delay: 2800ms; }
+.mydelay_29, .mydelay_2900 { animation-delay: 2900ms; }
+.mydelay_30, .mydelay_3000 { animation-delay: 3000ms; }
+.mydelay_31, .mydelay_3100 { animation-delay: 3100ms; }
+.mydelay_32, .mydelay_3200 { animation-delay: 3200ms; }
+.mydelay_33, .mydelay_3300 { animation-delay: 3300ms; }
+.mydelay_34, .mydelay_3400 { animation-delay: 3400ms; }
+.mydelay_35, .mydelay_3500 { animation-delay: 3500ms; }
+.mydelay_36, .mydelay_3600 { animation-delay: 3600ms; }
+.mydelay_37, .mydelay_3700 { animation-delay: 3700ms; }
+.mydelay_38, .mydelay_3800 { animation-delay: 3800ms; }
+.mydelay_39, .mydelay_3900 { animation-delay: 3900ms; }
+.mydelay_40, .mydelay_4000 { animation-delay: 4000ms; }
+.mydelay_41, .mydelay_4100 { animation-delay: 4100ms; }
+.mydelay_42, .mydelay_4200 { animation-delay: 4200ms; }
+.mydelay_43, .mydelay_4300 { animation-delay: 4300ms; }
+.mydelay_44, .mydelay_4400 { animation-delay: 4400ms; }
+.mydelay_45, .mydelay_4500 { animation-delay: 4500ms; }
+.mydelay_46, .mydelay_4600 { animation-delay: 4600ms; }
+.mydelay_47, .mydelay_4700 { animation-delay: 4700ms; }
+.mydelay_48, .mydelay_4800 { animation-delay: 4800ms; }
+.mydelay_49, .mydelay_4900 { animation-delay: 4900ms; }
+.mydelay_50, .mydelay_5000 { animation-delay: 5000ms; }
+
+.myduration_01, .myduration_100 { transition-duration: 100ms; }
+.myduration_02, .myduration_200 { transition-duration: 200ms; }
+.myduration_03, .myduration_300 { transition-duration: 300ms; }
+.myduration_04, .myduration_400 { transition-duration: 400ms; }
+.myduration_05, .myduration_500 { transition-duration: 500ms; }
+.myduration_06, .myduration_600 { transition-duration: 600ms; }
+.myduration_07, .myduration_700 { transition-duration: 700ms; }
+.myduration_08, .myduration_800 { transition-duration: 800ms; }
+.myduration_09, .myduration_900 { transition-duration: 900ms; }
+.myduration_10, .myduration_1000 { transition-duration: 1000ms; }
+.myduration_11, .myduration_1100 { transition-duration: 1100ms; }
+.myduration_12, .myduration_1200 { transition-duration: 1200ms; }
+.myduration_13, .myduration_1300 { transition-duration: 1300ms; }
+
+@keyframes opacityIn {
+    0% {
+        opacity: 0%;
+    }
+    100% {
+        opacity: 100%;
+    }
+}
+@keyframes opacityOut {
+    0% {
+        opacity: 100%;
+    }
+    100% {
+        opacity: 0%;
+    }
+}

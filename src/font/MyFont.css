@@ -1,0 +1,12 @@
+@font-face {
+    font-family: Poppins;
+    src: url(./Poppins-Regular.ttf);
+}
+.myfont-Poppins {
+    font-family: Poppins;
+}
+p,
+button,
+button > span {
+    font-family: Poppins;
+}

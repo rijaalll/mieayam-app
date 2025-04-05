@@ -1,0 +1,29 @@
+{
+    "website": {
+        "name": "Mie Ayam.ku",
+        "icon": "img-title.png",
+        "loading-icon": "./img/loading-icon.png",
+        "author": "Ahmad Rizal",
+        "description": "Shopink adalah tempat",
+        "country": "East-Java Indonesia",
+        "version": "1.0.0"
+    },
+
+    "package": {
+        "css": "tailwind css",
+        "icon": [
+            "@theme-toggles",
+            "bootstrap-icon"
+        ],
+        "font": {
+            "helvetica": {
+                "font-family": "helvetica",
+                "class": "myfont-Helvetica"
+            },
+            "poppins": {
+                "font-family": "poppins",
+                "class": "myfont-Poppins"
+            }
+        }
+    }
+}

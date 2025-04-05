@@ -1,0 +1,46 @@
+.secondLoadTop {
+    animation: secondLoadTop 3s forwards;
+}
+.secondLoadBot{
+    animation: secondLoadBot 3s forwards;
+}
+
+@keyframes secondLoadTop {
+    0% {left: -100%;}   
+    33% {left: 0%;}
+    66% {left: 0%;}
+    100% {left: 100%;}
+}
+@keyframes secondLoadBot {
+    0% {right: -100%;}  
+    33% {right: 0%;}
+    66% {right: 0%;}
+    100% {right: 100%;} 
+}
+
+.svgLineLoader{
+    stroke-dasharray: 800;
+    stroke-dashoffset: 800;
+    animation: svgLine 4s linear forwards;
+}
+@keyframes svgLine {
+    0% {
+        stroke-dashoffset: 845;
+    }
+    30% {
+        stroke-dashoffset: 320;
+    }
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
+
+.MenuLoader {
+    animation: MenuLoader 2700ms forwards;
+}
+@keyframes MenuLoader {
+    0% {top: -100%;}
+    30% {top: 0%;}
+    70% {top: 0%;}
+    100% {top: -100%;}
+}
