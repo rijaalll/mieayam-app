@@ -3,10 +3,21 @@
         "name": "Mie Ayam.ku",
         "icon": "img-title.png",
         "loading-icon": "./img/loading-icon.png",
-        "author": "Ahmad Rizal",
-        "description": "Shopink adalah tempat",
-        "country": "East-Java Indonesia",
-        "version": "1.0.0"
+        "author": {
+            "name": "Ahmad Rizal",
+            "facebook": {
+                "name": "Ahmad Rizal",
+                "url": "https://www.facebook.com/ahmad.rizal.1"
+            },
+            "github": {
+                "name": "rijaalll",
+                "url": "https://github.com/rijaalll"
+            }
+        },
+        
+        "description": "Mie Ayam.ku WebApp untuk Pemesanan Mie Ayam secara online",
+        "version": "1.0.0",
+        "API-URL": "https://rizal-task.42web.io/mieayam-api/?"
     },
 
     "package": {
@@ -25,5 +36,41 @@
                 "class": "myfont-Poppins"
             }
         }
-    }
+    },
+
+    "MoonName": [
+        "januari",
+        "februari",
+        "maret",
+        "april",
+        "mei",
+        "juni",
+        "juli",
+        "agustus",
+        "september",
+        "oktober",
+        "november",
+        "desember"
+    ],
+
+    "MieAyamQuote": [
+        "Melupakan butuh waktu dan tak sesingkat memasak Mie Ayam pesananmu.",
+        "Hilang tanpa pesan, mie ayam tetap hadir dalam kenyataan.",
+        "Dia boleh hilang tetapi perut harus tetap kenyang.",
+        "Kalau hati gak kenyang, perut aja yang dibahagiain.",
+        "Disaat hati lagi kelam, ada mie ayam yg siap menemani malam.",
+        "Jangan lupa makan, jangan lupa minum, jangan lupa bersandar.",
+        "Daripada bawa perasaan mending bawa Mie Ayam, kenyang berdua hehe.",
+        "Jika tidak ada bahu untuk bersandar, masih ada Mie Ayam untuk didahar.",
+        "Kamu kok berharap terus, makan Mie Ayam kapan?.",
+        "Katanya pgn makan Mie Ayam bareng, kok malah pergi..? boong ya",
+        "Pergi meninggalkan luka, Mie Ayam menyembuhkan dgn rasa."
+    ],
+
+    "NotFoundQuote": [
+        "Hai, kamu cari apa? tidak ada dia disini",
+        "Sepertinya kamu berada di halaman yang salah",
+        "List menu aja gk ada di sini, apalagi dia yang sudah pergi",
+        "Setiap pertemuan ada perpisahan"
+    ]
 }

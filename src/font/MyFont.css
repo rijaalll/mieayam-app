@@ -5,8 +5,17 @@
 .myfont-Poppins {
     font-family: Poppins;
 }
+@font-face {
+    font-family: Helveticaa;
+    src: url(./Helvetica.woff);
+}
+.myfont-Helvetica {
+    font-family: Helveticaa;
+}
 p,
 button,
-button > span {
+button > span,
+section,
+span {
     font-family: Poppins;
 }

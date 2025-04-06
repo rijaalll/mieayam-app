@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 
 function CashierPage({ setIsCashier }) {
     const [isLogin, setIsLogin] = useState(false);
@@ -7,6 +8,7 @@ function CashierPage({ setIsCashier }) {
     const [namaKasir, setNamaKasir] = useState('');
     const [errorMsg, setErrorMsg] = useState('');
     const kasirDataApi = 'http://127.0.0.1/tes/api-mieayam/kasir.php?';
+    const navigate = useNavigate();
 
     useEffect(() => {
         setIsCashier(true);
@@ -118,6 +120,10 @@ function CashierPage({ setIsCashier }) {
                             >
                                 Masuk
                             </button>
+                            <div className="w-full h-auto flex">
+                                <p>Masuk sebagai &nbsp;</p>
+                                <button onClick={() => navigate('/')} className="text-sky-400 text-lg hover:underline"><span>Customer</span></button>
+                            </div>
                         </div>
                     </div>
                 </div>

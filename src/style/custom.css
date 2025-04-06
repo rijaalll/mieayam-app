@@ -37,10 +37,11 @@
 
 .MenuLoader {
     animation: MenuLoader 2700ms forwards;
+    -webkit-animation: MenuLoader 2700ms forwards;
 }
 @keyframes MenuLoader {
     0% {top: -100%;}
     30% {top: 0%;}
     70% {top: 0%;}
-    100% {top: -100%;}
+    100% {top: -120%;}
 }

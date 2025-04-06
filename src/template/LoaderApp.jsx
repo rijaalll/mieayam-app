@@ -9,16 +9,16 @@ function LoaderFirst({display}) {
             <div className='w-full h-full'>
                 <div className='w-full h-full flex justify-center items-center'>
                     <div className='w-auto h-auto flex flex-col gap-4 justify-center items-center relative'>
-                        <div className='w-[90%] max-w-[110px] h-auto animate__animated animate__bounceInDown mydelay_10'>
+                        <div className='w-[90%] max-w-[110px] max-[425px]:max-w-[90px] h-auto animate__animated animate__bounceInDown mydelay_10'>
                             <img src={loadingIcon} />
                         </div>
                         <div className='flex flex-row w-full gap-[1px] items-center relative z-[10]'>
                             {mieAyamText.map((text, index) => (
-                                <p key={index} className={`text-6xl font-medium animate__animated animate__fadeInDown ${index == 2 ? 'mr-4' : ''} mydelay_${index + 2}00`}>{text}</p>
+                                <p key={index} className={`text-6xl max-[425px]:text-3xl font-medium animate__animated animate__fadeInDown ${index == 2 ? 'mr-4 max-[425px]:mr-2' : ''} mydelay_${index + 2}00`}>{text}</p>
                             ))}
-                            <p className='text-6xl font-medium text-sky-400 animate__animated animate__bounceInRight mydelay_15'>.ku</p>
+                            <p className='text-6xl max-[425px]:text-3xl font-medium text-sky-400 animate__animated animate__bounceInRight mydelay_15'>.ku</p>
                         </div>
-                        <div className='svgLineLoader mydelay_20 w-[calc(100%+20px)] h-auto -mt-[7.4rem] z-[9] relative -rotate-[0.2deg]'>
+                        <div className='svgLineLoader mydelay_20 w-[calc(100%+20px)]  h-auto -mt-[7.4rem] max-[425px]:-mt-[4.5rem] z-[9] relative -rotate-[0.2deg]'>
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 250">
                                 <path
                                 fill="none"
